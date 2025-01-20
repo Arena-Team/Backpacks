@@ -362,7 +362,7 @@ function Library.new(config)
 	Twen:Create(UICorner_2,TweenInfo2,{CornerRadius = UDim.new(0, 4)}):Play();
 
 	Title.Name = "Title"
-	Title.Parent = Headers
+	Title.Parent = MainFrame
 	Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	Title.BackgroundTransparency = 1.000
 	Title.BorderColor3 = Color3.fromRGB(0, 0, 0)

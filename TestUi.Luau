@@ -391,7 +391,7 @@ function Library.new(config)
 	Description.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	Description.BorderSizePixel = 0
 	Description.Position = UDim2.new(0.327570528, 0, 0.0126646794, 0)
-	Description.Size = UDim2.new(0.671064615, 0, 0.0518743545, 0)
+	Description.Size = UDim2.new(0.949999988, 0, 0.949999988, 0)
 	Description.Font = Enum.Font.GothamBold
 	Description.Text = config.Description
 	Description.TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -399,6 +399,7 @@ function Library.new(config)
 	Description.TextSize = 14.000
 	Description.TextTransparency = 1
 	Description.TextWrapped = true
+  Description.TextScaled = true
 	Description.TextXAlignment = Enum.TextXAlignment.Left
 	Twen:Create(Description,TweenInfo2,{TextTransparency = 0.5}):Play();
 

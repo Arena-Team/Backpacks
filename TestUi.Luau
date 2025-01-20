@@ -367,7 +367,7 @@ function Library.new(config)
 	Title.BackgroundTransparency = 1.000
 	Title.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	Title.BorderSizePixel = 0
-	Title.Position = UDim2.new(0.1, 0, 0.5, 0)
+	Title.Position = UDim2.new(0.1, 0, 0.1, 0)
 	Title.Size = UDim2.new(0.949999988, 0, 0.949999988, 0)
 	Title.Font = Enum.Font.GothamBold
 	Title.Text = config.Title

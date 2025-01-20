@@ -399,7 +399,6 @@ function Library.new(config)
 	Description.TextSize = 14.000
 	Description.TextTransparency = 1
 	Description.TextWrapped = true
-  Description.TextScaled = true
 	Description.TextXAlignment = Enum.TextXAlignment.Left
 	Twen:Create(Description,TweenInfo2,{TextTransparency = 0.5}):Play();
 

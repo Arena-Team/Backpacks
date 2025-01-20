@@ -372,9 +372,9 @@ function Library.new(config)
 	Title.Font = Enum.Font.GothamBold
 	Title.Text = config.Title
 	Title.TextColor3 = Color3.fromRGB(255, 255, 255)
-	Title.TextScaled = true
+	Title.TextScaled = false
 	Title.TextSize = 14.000
-	Title.TextWrapped = true
+	Title.TextWrapped = false
 	Title.TextXAlignment = Enum.TextXAlignment.Left
 	Title.TextTransparency = 1;
 

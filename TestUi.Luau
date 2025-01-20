@@ -374,7 +374,7 @@ function Library.new(config)
 	Title.TextColor3 = Color3.fromRGB(255, 255, 255)
 	Title.TextScaled = false
 	Title.TextSize = 14.000
-	Title.TextWrapped = false
+	Title.TextWrapped = true
 	Title.TextXAlignment = Enum.TextXAlignment.Left
 	Title.TextTransparency = 1;
 

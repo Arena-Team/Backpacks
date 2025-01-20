@@ -308,7 +308,7 @@ function Library.new(config)
 	MainFrame.Name = "MainFrame"
 	MainFrame.Parent = ScreenGui
 	MainFrame.AnchorPoint = Vector2.new(0.5, 0.5)
-	MainFrame.BackgroundColor3 = Color3.fromRGB(255, 0, 127)
+	MainFrame.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
 	MainFrame.BackgroundTransparency = 1
 	MainFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	MainFrame.BorderSizePixel = 0
@@ -541,7 +541,7 @@ function Library.new(config)
 
 		DropdownFrame.Name = "DropdownFrame"
 		DropdownFrame.Parent = ScreenGui
-		DropdownFrame.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+		DropdownFrame.BackgroundColor3 = Color3.fromRGB(255, 0, 127)
 		DropdownFrame.BackgroundTransparency = 0.500
 		DropdownFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		DropdownFrame.BorderSizePixel = 0
@@ -1311,7 +1311,7 @@ function Library.new(config)
 
 				FunctionToggle.Name = "FunctionToggle"
 				FunctionToggle.Parent = Section
-				FunctionToggle.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+				FunctionToggle.BackgroundColor3 = Color3.fromRGB(255, 0, 127)
 				FunctionToggle.BackgroundTransparency = 1
 				FunctionToggle.BorderColor3 = Color3.fromRGB(0, 0, 0)
 				FunctionToggle.BorderSizePixel = 0
@@ -1453,7 +1453,7 @@ function Library.new(config)
 
 				FunctionTitle.Name = "FunctionTitle"
 				FunctionTitle.Parent = Section
-				FunctionTitle.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+				FunctionTitle.BackgroundColor3 = Color3.fromRGB(255, 0, 127)
 				FunctionTitle.BackgroundTransparency = 0.800
 				FunctionTitle.BorderColor3 = Color3.fromRGB(0, 0, 0)
 				FunctionTitle.BorderSizePixel = 0
@@ -1650,7 +1650,7 @@ function Library.new(config)
 				BindEvent.Name = tostring(ctfx.Title)
 				FunctionKeybind.Name = "FunctionKeybind"
 				FunctionKeybind.Parent = Section
-				FunctionKeybind.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+				FunctionKeybind.BackgroundColor3 = Color3.fromRGB(255, 0, 127)
 				FunctionKeybind.BackgroundTransparency = 0.800
 				FunctionKeybind.BorderColor3 = Color3.fromRGB(0, 0, 0)
 				FunctionKeybind.BorderSizePixel = 0
@@ -1825,7 +1825,7 @@ function Library.new(config)
 
 				FunctionSlider.Name = "FunctionSlider"
 				FunctionSlider.Parent = Section
-				FunctionSlider.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+				FunctionSlider.BackgroundColor3 = Color3.fromRGB(255, 0, 127)
 				FunctionSlider.BackgroundTransparency = 0.800
 				FunctionSlider.BorderColor3 = Color3.fromRGB(0, 0, 0)
 				FunctionSlider.BorderSizePixel = 0
@@ -1996,7 +1996,7 @@ function Library.new(config)
 
 				FunctionDropdown.Name = "FunctionDropdown"
 				FunctionDropdown.Parent = Section
-				FunctionDropdown.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+				FunctionDropdown.BackgroundColor3 = Color3.fromRGB(255, 0, 127)
 				FunctionDropdown.BackgroundTransparency = 0.800
 				FunctionDropdown.BorderColor3 = Color3.fromRGB(0, 0, 0)
 				FunctionDropdown.BorderSizePixel = 0
@@ -2168,7 +2168,7 @@ function Library.new(config)
 
 				FunctionTextbox.Name = "FunctionTextbox"
 				FunctionTextbox.Parent = Section
-				FunctionTextbox.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+				FunctionTextbox.BackgroundColor3 = Color3.fromRGB(255, 0, 127)
 				FunctionTextbox.BackgroundTransparency = 0.800
 				FunctionTextbox.BorderColor3 = Color3.fromRGB(0, 0, 0)
 				FunctionTextbox.BorderSizePixel = 0
@@ -2396,7 +2396,7 @@ Library.NewAuth = function(conf)
 	Auth.Parent = ScreenGui
 	Auth.Active = true
 	Auth.AnchorPoint = Vector2.new(0.5, 0.5)
-	Auth.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+	Auth.BackgroundColor3 = Color3.fromRGB(255, 0, 127)
 	Auth.BackgroundTransparency = 1.000
 	Auth.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	Auth.BorderSizePixel = 0
